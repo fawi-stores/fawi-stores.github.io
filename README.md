@@ -76,7 +76,7 @@ A responsive small business website for showcasing and advertising products, bui
   <section id="contact" class="bg-white py-16 shadow-inner">
     <div class="max-w-4xl mx-auto px-4 text-center">
       <h3 class="text-3xl font-bold mb-6">Contact Us</h3>
-      <p class="mb-6">Reach us via phone: <strong>+234 800 000 0000</strong> or email: <strong>mybusiness@email.com</strong></p>
+      <p class="mb-6">Reach us via phone: <strong>+234 8133224424</strong> or email: <strong>fawiboyoo@email.com</strong></p>
       <form class="space-y-4 max-w-md mx-auto">
         <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg" required>
         <input type="email" placeholder="Your Email" class="w-full p-3 border rounded-lg" required>
