@@ -57,7 +57,10 @@ A responsive small business website for showcasing and advertising products, bui
         <h4 class="text-xl font-bold mt-4">Product 2</h4>
         <p class="text-gray-600">₦10,000</p>
         <p class="text-sm mt-2">Another description for product 2.</p>
-        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Contact to Buy</button>
+      <a href="tel:+2348133224424" class="mt-4 w-full block text-center bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+  Contact to Buy
+</a>
+
       </div>
 
       <div class="bg-white rounded-lg shadow p-4">
@@ -65,7 +68,10 @@ A responsive small business website for showcasing and advertising products, bui
         <h4 class="text-xl font-bold mt-4">TiLECC A9 Pro</h4>
         <p class="text-gray-600">₦15,000</p>
         <p class="text-sm mt-2">TiLECC A9 Pro Wireless Bluetooth Headsets LED Touchscreen Earphones Noise Cancelling Earplugs.</p>
-        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Contact to Buy</button>
+      <a href="tel:+2348133224424" class="mt-4 w-full block text-center bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+  Contact to Buy
+</a>
+
       </div>
 
     </div>
