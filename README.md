@@ -59,7 +59,7 @@ A responsive small business website for showcasing and advertising products, bui
       </div>
 
       <div class="bg-white rounded-lg shadow p-4">
-        <img src="https://via.placeholder.com/300" alt="Product 3" class="w-full h-48 object-cover rounded-md">
+        <img src=https://tse2.mm.bing.net/th/id/OIP.vG8ZdaJtNoDVA28Gsa-J2QAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3
         <h4 class="text-xl font-bold mt-4">Product 3</h4>
         <p class="text-gray-600">₦15,000</p>
         <p class="text-sm mt-2">Description for product 3 goes here.</p>
