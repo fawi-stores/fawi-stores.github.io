@@ -11,14 +11,14 @@ A responsive small business website for showcasing and advertising products, bui
   <script src="https://cdn.tailwindcss.com"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Business Store</title>
+  <title>Fawi Stores</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-900">
   <!-- Navbar -->
   <header class="bg-white shadow">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold text-blue-600">MyStore</h1>
+      <h1 class="text-2xl font-bold text-blue-600">Fawi Stores</h1>
       <nav class="space-x-6">
         <a href="#products" class="hover:text-blue-600">Products</a>
         <a href="#about" class="hover:text-blue-600">About</a>
@@ -29,7 +29,7 @@ A responsive small business website for showcasing and advertising products, bui
 
   <!-- Hero -->
   <section class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
-    <h2 class="text-4xl font-bold mb-4">Welcome to My Business</h2>
+    <h2 class="text-4xl font-bold mb-4">Welcome to Fawi Stores </h2>
     <p class="mb-6">Discover our latest products at affordable prices 🚀</p>
     <a href="#products" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100">
       Shop Now
