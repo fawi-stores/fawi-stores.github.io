@@ -43,7 +43,7 @@ A responsive small business website for showcasing and advertising products, bui
       
       <!-- Product Card -->
       <div class="bg-white rounded-lg shadow p-4">
-        <img src="https://via.placeholder.com/300" alt="Product 1" class="w-full h-48 object-cover rounded-md">
+        <img src=https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/41/6269404/1.jpg?5647
         <h4 class="text-xl font-bold mt-4">Product 1</h4>
         <p class="text-gray-600">₦5,000</p>
         <p class="text-sm mt-2">Short description of the product goes here.</p>
