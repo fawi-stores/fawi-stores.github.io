@@ -2,7 +2,13 @@
 A responsive small business website for showcasing and advertising products, built with HTML and Tailwind CSS, and hosted on GitHub Pages.
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><!DOCTYPE html>
+<html lang="en">
+<head><meta name="google-site-verification" content="MPsdWTM4oPVVg5mrnc2FsFYGYAGHx8ryi9yf0hWIx_M" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Business Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Business Store</title>
