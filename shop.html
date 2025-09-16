@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Fawi-Stores</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-900 text-white p-4 flex justify-between">
+    <a href="index.html" class="font-bold">MyStore</a>
+    <div>
+      <a href="index.html" class="mr-4 hover:underline">Home</a>
+      <a href="shop.html" class="hover:underline">Shop</a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="max-w-6xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    <!-- PRODUCT CARD (repeat this block for each product) -->
+    <div class="bg-white rounded-lg shadow p-4">
+      <img src="https://www.tarkatabd.com/images/products/5beec026999741988a54/ET-Earbuds-Pro-2.webp"
+           alt="TiLECC A9 Pro"
+           class="w-full h-64 object-contain rounded-md cursor-pointer"
+           onclick="openLightbox('https://raw.githubusercontent.com/fawi-stores/fawi-stores.github.io/refs/heads/main/Shop%20by%20category%20(1).png')">
+
+      <h4 class="text-xl font-bold mt-4">TiLECC A9 Pro</h4>
+      <p class="text-gray-600">₦15,000</p>
+      <p class="text-sm mt-2">
+        TiLECC A9 Pro Wireless Bluetooth Headsets LED Touchscreen Earphones Noise Cancelling Earplugs.
+      </p>
+      <a href="https://wa.me/2348133224424" target="_blank"
+         class="mt-4 w-full block text-center bg-green-600 text-white py-2 rounded-lg hover:bg-green-700">
+        Contact on WhatsApp
+      </a>
+    </div>
+    <!-- END PRODUCT CARD -->
+
+    <!-- Copy and paste the above PRODUCT CARD 9 more times and just change image, title, price & description -->
+
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden z-50">
+    <span class="absolute top-5 right-8 text-white text-3xl cursor-pointer" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" class="max-w-screen max-h-screen rounded-lg shadow-lg">
+  </div>
+
+  <script>
+    function openLightbox(src) {
+      document.getElementById("lightbox-img").src = src;
+      document.getElementById("lightbox").classList.remove("hidden");
+    }
+    function closeLightbox() {
+      document.getElementById("lightbox").classList.add("hidden");
+    }
+  </script>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6 mt-10">
+    <p>&copy; 2025 MyStore. Built with ❤️.</p>
+  </footer>
+</body>
+</html>
