@@ -65,25 +65,33 @@ A responsive small business website for showcasing and advertising products, bui
 
      <!-- Product Card with Lightbox -->
 <!-- Product Card with Lightbox -->
+<!-- Product Card with Lightbox -->
 <div class="bg-white rounded-lg shadow p-4">
+  <!-- Product Image -->
   <img src="https://raw.githubusercontent.com/fawi-stores/fawi-stores.github.io/refs/heads/main/Shop%20by%20category%20(1).png" 
        alt="TiLECC A9 Pro" 
        class="w-full object-contain rounded-md cursor-pointer" 
        onclick="openLightbox(this.src)">
 
+  <!-- Product Name -->
   <h4 class="text-xl font-bold mt-4">TiLECC A9 Pro</h4>
+
+  <!-- Price -->
   <p class="text-gray-600">₦15,000</p>
+
+  <!-- Product Description -->
   <p class="text-sm mt-2">
     TiLECC A9 Pro Wireless Bluetooth Headsets LED Touchscreen Earphones Noise Cancelling Earplugs.
   </p>
 
+  <!-- WhatsApp Button -->
   <a href="https://wa.me/2348133224424" target="_blank" 
      class="mt-4 w-full block text-center bg-green-600 text-white py-2 rounded-lg hover:bg-green-700">
     Contact on WhatsApp
   </a>
 </div>
 
-<!-- Lightbox -->
+<!-- Lightbox (opens when image is clicked) -->
 <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden">
   <span class="absolute top-5 right-8 text-white text-3xl cursor-pointer" onclick="closeLightbox()">&times;</span>
   <img id="lightbox-img" class="max-w-screen max-h-screen rounded-lg shadow-lg">
@@ -98,6 +106,7 @@ A responsive small business website for showcasing and advertising products, bui
     document.getElementById("lightbox").classList.add("hidden");
   }
 </script>
+
 
 
 
