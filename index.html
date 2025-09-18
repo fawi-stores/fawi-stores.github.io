@@ -25,18 +25,56 @@
 <body class="bg-gray-100 text-gray-900 font-sans">
 
   <!-- Navbar -->
-  <header class="bg-gray-900 text-white shadow-md">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <a href="#home" class="text-3xl font-extrabold text-blue-400 hover:text-blue-300 transition duration-300">Fawi-Stores</a>
-      <nav class="space-x-6">
-        <a href="#home" class="hover:text-blue-400 transition duration-300">Home</a>
-        <a href="#products" class="hover:text-blue-400 transition duration-300">Products</a>
-        <a href="#about" class="hover:text-blue-400 transition duration-300">About Us</a>
-        <a href="#contact" class="hover:text-blue-400 transition duration-300">Contact</a>
-        <a href="shop.html" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition duration-300">Shop All</a>
-      </nav>
-    </div>
-  </header>
+<header class="bg-gray-900 text-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <!-- Logo -->
+    <a href="#home" class="text-3xl font-extrabold text-blue-400 hover:text-blue-300 transition duration-300">
+      Fawi-Stores
+    </a>
+
+    <!-- Hamburger Menu (Mobile) -->
+    <button id="menu-btn" class="md:hidden focus:outline-none">
+      <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+           xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+    </button>
+
+    <!-- Desktop Nav -->
+    <nav id="menu" class="hidden md:flex space-x-6">
+      <a href="#home" class="hover:text-blue-400 transition duration-300">Home</a>
+      <a href="#products" class="hover:text-blue-400 transition duration-300">Products</a>
+      <a href="#about" class="hover:text-blue-400 transition duration-300">About Us</a>
+      <a href="#contact" class="hover:text-blue-400 transition duration-300">Contact</a>
+      <a href="shop.html" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition duration-300">
+        Shop All
+      </a>
+    </nav>
+  </div>
+
+  <!-- Mobile Dropdown Menu -->
+  <div id="dropdown" class="hidden md:hidden bg-gray-800 px-4 py-4 space-y-4">
+    <a href="#home" class="block hover:text-blue-400 transition duration-300">Home</a>
+    <a href="#products" class="block hover:text-blue-400 transition duration-300">Products</a>
+    <a href="#about" class="block hover:text-blue-400 transition duration-300">About Us</a>
+    <a href="#contact" class="block hover:text-blue-400 transition duration-300">Contact</a>
+    <a href="shop.html" class="block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition duration-300 text-center">
+      Shop All
+    </a>
+  </div>
+</header>
+
+<script>
+  // Toggle mobile menu
+  const menuBtn = document.getElementById("menu-btn");
+  const dropdown = document.getElementById("dropdown");
+
+  menuBtn.addEventListener("click", () => {
+    dropdown.classList.toggle("hidden");
+  });
+</script>
+
 
   <!-- Hero Section with Image Slider -->
   <section id="home" class="relative bg-gray-800 text-white h-[60vh] overflow-hidden">
@@ -239,6 +277,7 @@
 
 </body>
 </html>
+
 
 
 
