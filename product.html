@@ -82,26 +82,33 @@
     <main class="max-w-7xl mx-auto px-4 py-8 md:py-12">
         <div class="bg-white rounded-xl shadow-lg overflow-hidden">
             <div class="md:flex">
-                <!-- Product Images Section -->
-                <div class="md:w-1/2 p-4 md:p-6">
-                    <!-- Main Image -->
-                    <div class="mb-4 rounded-lg overflow-hidden border border-gray-200">
-                        <img id="main-image" src="https://via.placeholder.com/600x600" alt="https://www.itel-life.com/fileadmin/assets/img/plp/O20/detail-pc_01.jpg" class="w-full h-auto object-cover">
-                    </div>
-                    
-                    <!-- Thumbnail Images -->
-                    <div class="grid grid-cols-4 gap-2">
-                        <div class="thumbnail active rounded-lg overflow-hidden border border-gray-200 cursor-pointer">
-                            <img src="https://via.placeholder.com/600x600" alt="https://www.itel-life.com/fileadmin/assets/img/plp/O20/detail-pc_01.jpg" class="w-full h-auto object-cover" alt="Thumbnail 1" class="w-full h-auto object-cover" onclick="changeImage(this)">
-                        </div>
-                        <div class="thumbnail rounded-lg overflow-hidden border border-gray-200 cursor-pointer">
-                            <img src="https://via.placeholder.com/150x150" alt="Thumbnail 2" class="w-full h-auto object-cover" onclick="changeImage(this)">
-                        </div>
-                        <div class="thumbnail rounded-lg overflow-hidden border border-gray-200 cursor-pointer">
-                            <img src="https://via.placeholder.com/150x150" alt="Thumbnail 3" class="w-full h-auto object-cover" onclick="changeImage(this)">
-                        </div>
-                        <div class="thumbnail rounded-lg overflow-hidden border border-gray-200 cursor-pointer">
-                            <img src="https://via.placeholder.com/150x150" alt="Thumbnail 4" class="w-full h-auto object-cover" onclick="changeImage(this)">
+                <!-- Product Images Section (with your image) -->
+<div class="md:w-1/2 p-4 md:p-6">
+  <!-- Main Image -->
+  <div class="mb-4 rounded-lg overflow-hidden border border-gray-200">
+    <img id="main-image"
+         src="https://www.itel-life.com/fileadmin/assets/img/plp/O20/detail-pc_01.jpg"
+         alt="Itel O20 Main Image"
+         class="w-full h-auto object-cover">
+  </div>
+  
+  <!-- Thumbnail Images -->
+  <div class="grid grid-cols-4 gap-2">
+    <div class="thumbnail active rounded-lg overflow-hidden border border-gray-200 cursor-pointer">
+      <img src="https://www.itel-life.com/fileadmin/assets/img/plp/O20/detail-pc_01.jpg"
+           alt="Thumbnail 1"
+           class="w-full h-auto object-cover"
+           onclick="changeImage(this)">
+    </div>
+    <!-- Add more thumbnails as needed -->
+    <div class="thumbnail rounded-lg overflow-hidden border border-gray-200 cursor-pointer">
+      <img src="https://via.placeholder.com/150x150" alt="Thumbnail 2" class="w-full h-auto object-cover" onclick="changeImage(this)">
+    </div>
+    <div class="thumbnail rounded-lg overflow-hidden border border-gray-200 cursor-pointer">
+      <img src="https://via.placeholder.com/150x150" alt="Thumbnail 3" class="w-full h-auto object-cover" onclick="changeImage(this)">
+    </div>
+    <div class="thumbnail rounded-lg overflow-hidden border border-gray-200 cursor-pointer">
+      <img src="https://via.placeholder.com/150x150" alt="Thumbnail 4" class="w-full h-auto object-cover" onclick="changeImage(this)">
                         </div>
                     </div>
                 </div>
@@ -174,7 +181,7 @@
                     
                     <!-- WhatsApp Contact Button -->
                     <div class="mt-8">
-                        <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20this%20product:%20Product%20Name" 
+                        <a href="https://wa.me/+2348133224424?text=I'm%20interested%20in%20this%20product:%20Product%20Name" 
                            target="_blank" 
                            class="whatsapp-btn bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg flex items-center justify-center">
                             <i class="fab fa-whatsapp text-xl mr-2"></i>
